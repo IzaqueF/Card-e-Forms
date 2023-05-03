@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    height: 10vh;
+    background: #000000c9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo, nav ul li a, label {
+    color: #fff;
+}
+
+label {
+    display: none;
+
+}
+
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+
+nav a {
+    color: rgb(223, 223, 223);
+    margin: 2rem;
+    text-decoration: none;
+}
+
+
+
+
+body {
+    background-color: #000000c9;
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+.containerl {
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    height: 90vh;
+    align-content: center
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 598px;
+    margin: auto;
+    border-radius: 30px;
+    overflow: hidden;
+    backdrop-filter: blur(0.2rem);
+    background: #c1c4c1e0;
+    box-shadow:
+    24.9px 23.2px 17px -27px rgba(0, 0, 0, 0.643),
+    40.1px 37.2px 46.7px -27px rgba(0, 0, 0, 0.724),
+    56px 52px 89px -27px rgba(0, 0, 0, 0.47);
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.card_background {
+    background-size: cover;
+    height: 220px;
+    position: relative;
+
+}
+
+.card__img {
+    width: 90%;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.card__img2 {
+    width: 44%;
+    position: absolute;
+    top: 54px;
+    left: 95px;
+}
+
+.card__img3 {
+    width: 66%;
+    position: absolute;
+    top: 35px;
+    left: 75px;
+}
+
+.card_descricao {
+    padding: 20px;
+   
+}
+
+.card_descricao h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.card_descricao p {
+    margin-bottom: 10px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+
+}
+
+.card_descricao span {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+.card_botao {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.card_botao button {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.card_botao button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card_botao button:hover {
+    background-color: rgb(187, 187, 187);
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: black;
+    margin-top: 1rem;
+}
+
+ footer p {
+    font-weight: bold;
+    color: #fff;
+    padding: 1rem;
+    
+    
+}
